@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: main-font;
+  src: url(/book-shop/fonts/main-font/SourceCodePro-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: vintage;
+  src: url(/book-shop/fonts/h1/Bigilla-Bold.otf);
+}
+body {
+  text-align: center;
+  font-family: main-font;
+  background-color: #efd9a7;
+}
+.user-msg {
+  display: none;
+}
+.modal {
+  display: none;
+}
+.open {
+  display: block;
+}
+h1 {
+  font-family: vintage;
+  font-size: 50px;
+}
+td,
+th {
+  border: 1px solid black;
+  height: 50px;
+  width: 56px;
+}
+table {
+  border-collapse: collapse;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(169, 169, 169, 0.288);
+}
+img {
+  width: 50px;
+}
+.picture {
+  background-color: white;
+}
+button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  width: 56px;
+  border-radius: 10px black;
+  font-family: main-font;
+  font-weight: bold;
+}
+button:hover {
+  background-color: wheat;
+}
+.delete {
+  background-color: #f7a992;
+}
+.delete:hover {
+  background-color: #c53811;
+}
+.read {
+  background-color: #537479;
+}
+.read:hover {
+  background-color: #5374799d;
+}
+.update {
+  background-color: #e97e2e;
+}
+.update:hover {
+  background-color: #e97f2e93;
+}
+.add {
+  width: auto;
+  background-color: #f2d8b3;
+  margin-bottom: 15px;
+}
